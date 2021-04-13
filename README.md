@@ -17,7 +17,8 @@ Part 1
 Part 2
 
 4. Convert data.csv as modified in Part 1 to JSON format and write as a second file called data2.json
-    df.to_json is used to make this conversion
+    Profit values are converted to numerical values 
+    df.to_json is used to make this conversion, orient set to records format 
 5. Sort matrix by descending order of index 4 values
     df.sort_values is used to sort matrix by index 4 values ('Profit (in millions)')
 6. Print first 20 rows of matrix as sorted by operation 5
